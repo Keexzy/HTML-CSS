@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Nombre</label>
+      <input id="name" name="name" type="text" required />
+
+      <label for="surName">Apellido</label>
+      <input
+        id="surName"
+        name="surName"
+        type="text"
+        placeholder="Escribe tu apellido"
+      />
+
+      <label for="phone">Telefono</label>
+      <input id="phone" name="phone" type="tel" />
+
+      <label for="email">Correo</label>
+      <input id="email" name="email" type="email" required />
+
+      <label for="pass">Contrania</label>
+      <input id="pass" name="pass" type="password" />
+
+      <label for="years">Edad</label>
+      <input id="years" name="years" type="date" />
+
+      <label for="time">Hora de nacimiento</label>
+      <input id="time" name="time" type="time" />
+
+      <label for="message">Escribe un mensaje</label>
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Escribe tu articulo"
+      ></textarea>
+
+      <input type="range" step="5" min="5" max="20" />
+      <input type="color" />
+
+      <button type="button" onclick="alert('me tocaste')">Boton</button>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+
+  <script>
+    const numero = 0;
+    const numero2 = 2;
+    console.log("formualrio de contacto");
+    console.log(numero + numero2);
+  </script>
+</html>
